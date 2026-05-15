@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp.lovable.dev/mcp",
+      "url": "https://mcp.lovable.dev",
       "headers": [
         {
           "name": "Authorization",

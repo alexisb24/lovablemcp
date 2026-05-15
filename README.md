@@ -7,17 +7,14 @@ Connect Claude, Cursor, Codex, and other MCP-compatible clients to Lovable so th
 ## Endpoint
 
 ```
-https://mcp.lovable.dev/mcp
+https://mcp.lovable.dev
 ```
 
 Transport: [Streamable HTTP](https://modelcontextprotocol.io/specification/2025-06-18/basic/transports#streamable-http).
 
 ## Authentication
 
-Two methods are supported:
-
-1. **OAuth 2.1** — recommended. MCP clients discover the authorization server via RFC 9728 metadata at `https://mcp.lovable.dev/.well-known/oauth-protected-resource` and obtain a bearer token automatically. The token is passed as `Authorization: Bearer <token>`.
-2. **API key** — pass a workspace-scoped Lovable API key as `Lovable-API-Key: lov_…`. Keys can be generated from your workspace settings.
+**OAuth 2.1.** MCP clients discover the authorization server via RFC 9728 metadata at `https://mcp.lovable.dev/.well-known/oauth-protected-resource` and obtain a bearer token automatically. The token is passed as `Authorization: Bearer <token>`.
 
 ## Install
 
@@ -35,7 +32,7 @@ Any client other than Claude or ChatGPT must pass Lovable's public OAuth client 
 {
   "lovable": {
     "type": "http",
-    "url": "https://mcp.lovable.dev/mcp",
+    "url": "https://mcp.lovable.dev",
     "auth": {
       "CLIENT_ID": "6d465f583e1e4ce5801b1616f735670c"
     }
