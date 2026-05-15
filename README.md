@@ -52,7 +52,7 @@ The server exposes tools across these areas:
 - **Templates & libraries** — browse template and library projects
 - **File uploads** — generate upload URLs for attaching images
 
-See the [Lovable MCP documentation](https://docs.lovable.dev/features/mcp) for the full tool reference.
+See the [Lovable MCP documentation](https://docs.lovable.dev/integrations/lovable-mcp-server#lovable-mcp-server-research-preview) for the full tool reference.
 
 ## Registry
 
