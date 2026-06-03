@@ -1,25 +1,13 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.lovablelabs/mcp",
+  "name": "dev.lovable/mcp",
   "title": "Lovable",
-  "description": "Connect AI assistants to Lovable — create, edit, and deploy full-stack apps through natural language.",
-  "version": "1.1.0",
-  "websiteUrl": "https://lovable.dev",
-  "repository": {
-    "url": "https://github.com/lovablelabs/mcp",
-    "source": "github"
-  },
+  "description": "Official MCP server for Lovable, the AI-powered full-stack app builder.",
+  "version": "0.1.1",
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp.lovable.dev",
-      "headers": [
-        {
-          "name": "Authorization",
-          "description": "Bearer token obtained from the Lovable OAuth authorization server at https://lovable.dev/oauth. MCP clients can discover this automatically via the RFC 9728 metadata at https://mcp.lovable.dev/.well-known/oauth-protected-resource.",
-          "isSecret": true
-        }
-      ]
+      "url": "https://mcp.lovable.dev"
     }
   ]
 }
